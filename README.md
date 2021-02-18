@@ -17,6 +17,8 @@ Figure 1. The trend of training accuracy and loss against increasing iteration n
 As seen in Figure 1, training accuracy increased rapidly in the first iterations and then continued to increase slowly. Likewise, the trend in training loss decreased rapidly in the first iterations and then continued to decrease gradually. For all these reasons, the first iterations iteratively progressed the targeted function towards the optimum value instead of memorizing the model and minimized the loss function.
 
 
-Table 8. Results to PlantDiseaseNet-EF model and PlantDiseaseNet-MV model
+Table 1. Results to PlantDiseaseNet-EF model and PlantDiseaseNet-MV model
+
+![results](https://user-images.githubusercontent.com/54291142/108421421-35c03c00-7246-11eb-8573-b1783453f183.PNG)
 
 
