@@ -10,7 +10,7 @@ The Turkey-PlantDataset called as Turkey Plant Diseases & Pests Dataset was obta
 Turkey-PlantDataset dowloand link: https://drive.google.com/open?id=1gQNRL0I-udvAQXJV6Ewvhc14CLIgYmeA
 
 
-
+![Alex](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm_5f3CAKzVEgNO6PVvm3zTRI4eLrqh4gw0iRwx496wllsCWRVtw)
 
 Figure 1. The trend of training accuracy and loss against increasing iteration numbers of the Deep pre-trained CNN model
 
