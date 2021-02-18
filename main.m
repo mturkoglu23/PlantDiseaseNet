@@ -37,9 +37,15 @@ for i=1:uzunluk
 end
 labels=imds.Labels;
 
+%% PlantDiseaseNet-EF model
+H=double(labels);
+feat=[alex_Feats;google_Feats;dense_Feats;res18_Feats;res101_Feats;res50_Feats]';
+YPred_EF=prediction(feat,H);
+accuracy = mean(YPred_EF == Y1) // Results of PlantDiseaseNet-EF model
+
+
+%% PlantDiseaseNet-Majority Voting model
 Y1=double(labels);
-
-
 YPred1=prediction(google_Feats,Y1);
 YPred2=prediction(res18_Feats,Y1);
 YPred3=prediction(res101_Feats,Y1);
@@ -51,4 +57,4 @@ for i=1:length(YPred1)
         YPredson(i)=mode(diz);
 end
 
-accuracy = mean(YPredson' == Y1)
+accuracy = mean(YPredson' == Y1) // Results of PlantDiseaseNet-MV model
