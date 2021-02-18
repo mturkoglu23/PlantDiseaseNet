@@ -10,10 +10,9 @@ The Turkey-PlantDataset called as Turkey Plant Diseases & Pests Dataset was obta
 Turkey-PlantDataset dowloand link: https://drive.google.com/open?id=1gQNRL0I-udvAQXJV6Ewvhc14CLIgYmeA
 
 
-![Deep CNN](https://drive.google.com/file/d/1sVO8DWbDWqNDONHLcW5Zh8kDF7-Rlkq3/view?usp=sharing)
-
 Figure 1. The trend of training accuracy and loss against increasing iteration numbers of the Deep pre-trained CNN model
 
+Figure 1: https://drive.google.com/file/d/1sVO8DWbDWqNDONHLcW5Zh8kDF7-Rlkq3/view?usp=sharing
 
 As seen in Figure 1, training accuracy increased rapidly in the first iterations and then continued to increase slowly. Likewise, the trend in training loss decreased rapidly in the first iterations and then continued to decrease gradually. For all these reasons, the first iterations iteratively progressed the targeted function towards the optimum value instead of memorizing the model and minimized the loss function.
 
