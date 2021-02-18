@@ -12,7 +12,7 @@ Turkey-PlantDataset dowloand link: https://drive.google.com/open?id=1gQNRL0I-udv
 
 Figure 1. The trend of training accuracy and loss against increasing iteration numbers of the Deep pre-trained CNN model
 
-Figure 1: https://drive.google.com/file/d/1sVO8DWbDWqNDONHLcW5Zh8kDF7-Rlkq3/view?usp=sharing
+![Deep CNN](https://user-images.githubusercontent.com/54291142/108363800-61bbcd00-7206-11eb-8a62-a0c5e7ab9cb6.PNG)
 
 As seen in Figure 1, training accuracy increased rapidly in the first iterations and then continued to increase slowly. Likewise, the trend in training loss decreased rapidly in the first iterations and then continued to decrease gradually. For all these reasons, the first iterations iteratively progressed the targeted function towards the optimum value instead of memorizing the model and minimized the loss function.
 
