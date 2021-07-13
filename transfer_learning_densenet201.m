@@ -4,7 +4,7 @@
 
 imds = imageDatastore('...\Turkey_PlantDataset\','IncludeSubfolders',true,'LabelSource','foldernames');
 imds.ReadFcn = @(loc)imresize(imread(loc),[224,224]);
-[trainImages,valImages] = splitEachLabel(imds,0.8,'randomized');
+[trainImages,valImages] = splitEachLabel(imds,0.9,'randomized');
 
 net = densenet201;
 
