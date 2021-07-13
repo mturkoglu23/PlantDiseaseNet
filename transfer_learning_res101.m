@@ -2,7 +2,7 @@
  clear 
 
 
-images = imageDatastore('C:\Users\TÜRKOĞLU\Desktop\New folder\kayısı foto\','IncludeSubfolders',true,'LabelSource','foldernames');
+images = imageDatastore('...\','IncludeSubfolders',true,'LabelSource','foldernames');
 images.ReadFcn = @(loc)imresize(imread(loc),[224,224]);
 [trainImages,valImages] = splitEachLabel(images,0.8,'randomized');
 
